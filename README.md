@@ -43,5 +43,5 @@ Ce projet est un script JavaScript conçu pour aider à résoudre automatiquemen
   - Vous devrez peut-être faire cet exercice manuellement.
 
 ## Note de non-responsabilité
-**Je décline toute responsabilité** quant à l'utilisation de ce script. Si vous choisissez de l'utiliser, c'est à vos propres risques. Je ne serai pas responsable des éventuels problèmes liés à votre compte Altissia
+**Je décline toute responsabilité** quant à l'utilisation de ce script. Si vous choisissez de l'utiliser, c'est à vos propres risques. Je ne serai pas responsable des éventuels problèmes liés à votre compte Altissia.
 Ce projet a été créé **à titre personnel et éducatif** dans le but de m'apprendre le Javascript et la manière de l'utiliser sur des pages web
