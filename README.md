@@ -1,4 +1,4 @@
-# Altissia Lesson Resolver
+# Altissia Resolver de leçons
 
 Ce projet est un script JavaScript conçu pour aider à résoudre automatiquement les leçons sur Altissia. Il est destiné à être utilisé avec l'extension Tampermonkey sur Chrome ou Firefox.
 
