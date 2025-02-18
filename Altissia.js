@@ -94,11 +94,11 @@
                 let input = document.querySelectorAll('input.c-iJOJc');
                 if (input){
                     for (let i = 0; i < input.length; i++){
+                        await CliqueBouton(input[i]);
+                        await wait(50);
                         input[i].value=reponse[i];
                         await wait(50);
                         input[i].dispatchEvent(new Event('input', { bubbles: true }));
-                        await wait(50);
-                        input[i].dispatchEvent(new Event('change', { bubbles: true }));
                         await wait(50);
                     }
                     await wait(100);
@@ -248,6 +248,7 @@
         let OrdreIndices = [];
         let texteRestant = Texte;
 
+        // Vous pouvez retrouver le code de ce script altissia sur https://github.com/duvictorg/ResolverAltissia
         // Trier les blocs par longueur décroissante pour vérifier les blocs les plus longs en premier
         // Nous gardons une trace des indices originaux des blocs
         let BlocsAvecIndices = Blocs.map((bloc, index) => ({ bloc, index }));
